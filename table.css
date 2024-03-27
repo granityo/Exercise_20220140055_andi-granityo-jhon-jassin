@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+button {
+  padding: 8px 10px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+div {
+  padding: 30px;
+}
+
+.container {
+  border-radius: 2.1rem;
+  width: 1000px;
+  height: 1000px;
+  border: 4px dashed rgb(26, 3, 160);
+  padding: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.kanan {
+  margin-bottom: 30%;
+}
+
+.kiri {
+  margin-top: -1%;
+}
+
+.kiri p {
+  text-indent: 1rem;
+}
+.kanan p {
+  text-indent: 1rem;
+}
+
+.gambar-kiri {
+  border-radius: 12px;
+  border: 7px solid #000000;
+  float: left;
+  max-width: 35%;
+  margin-right: 1rem;
+  overflow: hidden;
+}
+
+.gambar-kanan {
+  border-radius: 12px;
+  border: 7px solid #000000;
+  float: right;
+  max-width: 40%;
+}
+
+.folder {
+  display: flex;
+}
